@@ -1,0 +1,54 @@
+;;; 
+Export: Release 12.2.0.1.0 - Production on Thu Oct 19 21:38:10 2023
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+FLASHBACK automatically enabled to preserve database integrity.
+Starting "SYSTEM"."DEMOEXPJOB":  system/******** DUMPFILE=demoexp%U.dmp DIRECTORY=data_pump_dir JOB_NAME=demoexpjob LOGFILE=demoexp.log SCHEMAS=batman,robin,soe PARALLEL=6 FILESIZE=20M 
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/TABLESPACE_QUOTA
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+Processing object type SCHEMA_EXPORT/STATISTICS/MARKER
+. . exported "SOE"."ADDRESSES"                           21.90 MB  300000 rows
+. . exported "SOE"."ORDERS"                              25.62 MB  285958 rows
+. . exported "SOE"."CUSTOMERS"                           21.48 MB  200000 rows
+. . exported "SOE"."CARD_DETAILS"                        12.67 MB  300000 rows
+. . exported "SOE"."LOGON"                               9.962 MB  476597 rows
+. . exported "SOE"."PRODUCT_DESCRIPTIONS"                221.3 KB    1000 rows
+. . exported "SOE"."PRODUCT_INFORMATION"                 186.2 KB    1000 rows
+. . exported "SOE"."ORDER_ITEMS"                         46.30 MB  874277 rows
+. . exported "SOE"."WAREHOUSES"                          35.71 KB    1000 rows
+. . exported "BATMAN"."JOBCODE"                          6.625 KB       5 rows
+. . exported "ROBIN"."JOBCODE"                           6.617 KB       5 rows
+. . exported "BATMAN"."JOBCODEBCKUP"                         0 KB       0 rows
+. . exported "BATMAN"."JOBCODEORIG"                          0 KB       0 rows
+. . exported "ROBIN"."JOBCODEBCKUP"                          0 KB       0 rows
+. . exported "ROBIN"."JOBCODEORIG"                           0 KB       0 rows
+. . exported "SOE"."ORDERENTRY_METADATA"                     0 KB       0 rows
+. . exported "SOE"."DMS_INVENTORIES"                     15.19 MB  897168 rows
+. . exported "SOE"."INVENTORIES"                         15.19 MB  896968 rows
+Master table "SYSTEM"."DEMOEXPJOB" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYSTEM.DEMOEXPJOB is:
+  /u01/apps/oracle/admin/demo/dpdump/demoexp01.dmp
+  /u01/apps/oracle/admin/demo/dpdump/demoexp02.dmp
+  /u01/apps/oracle/admin/demo/dpdump/demoexp03.dmp
+  /u01/apps/oracle/admin/demo/dpdump/demoexp04.dmp
+  /u01/apps/oracle/admin/demo/dpdump/demoexp05.dmp
+  /u01/apps/oracle/admin/demo/dpdump/demoexp06.dmp
+  /u01/apps/oracle/admin/demo/dpdump/demoexp07.dmp
+  /u01/apps/oracle/admin/demo/dpdump/demoexp08.dmp
+  /u01/apps/oracle/admin/demo/dpdump/demoexp09.dmp
+  /u01/apps/oracle/admin/demo/dpdump/demoexp10.dmp
+  /u01/apps/oracle/admin/demo/dpdump/demoexp11.dmp
+Job "SYSTEM"."DEMOEXPJOB" successfully completed at Thu Oct 19 21:38:31 2023 elapsed 0 00:00:18
