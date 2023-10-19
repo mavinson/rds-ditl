@@ -1,9 +1,9 @@
 # Amazon RDS for Oracle Day in the Life SQL script
 
-This GitHub project provides a set of scripts to help learn the Amazon RDS for Oracle service.
+This GitHub project provides a set of Oracle Data Pump files to help learn the Amazon RDS for Oracle service.
 
 ## Instructions
-Download the zip file and execute the SQL scripts on your Amazon EC2 instance.
+Download the Oracle Data Pump files and the Powerpoint deck.
 
 ## License
 Copyright 2023 Amazon.com, Inc. or its affiliates. All Rights Reserved.
